@@ -1,0 +1,8 @@
+/\d\+\/\d\+ -- Pulls out all ratios of format dd(repeating)/dd(repeating)
+
+
+grep '<a href="/search/.*/">'
+grep -o '[0-9]\d*\/[0-9]\d*' testfile
+
+grep -o '<a href="/search/.*/">\|[0-9]\d*\/[0-9]\d*'
+

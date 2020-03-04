@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+for x in range (2, 1013):
+	print ("https://www.gametracker.com/search/?&searchipp=50&searchpge=" + x "#search")
